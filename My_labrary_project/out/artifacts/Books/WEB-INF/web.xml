@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee">
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>ru.library.My_library_project.server.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/*</url-pattern>        // вместо * имя по которому идет подключение, здесь он 1
+    </servlet-mapping>
+</web-app>
